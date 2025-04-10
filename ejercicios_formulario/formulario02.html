@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset> 
+    <legend>Indique sus preferencias por favor</legend>
+ 
+        <label for="fecha">Elija una fecha:</label>
+        <input type="date" id="fecha" name="fecha"><br><br>
+
+        <label for="fichero">Elija un fichero:</label>
+        <input type="file" id="fichero" name="fichero"><br><br>
+    
+        <p>Indique sus preferencias por favor</p>
+        <input type="radio" name="procesador" value="procesadoramd"> AMD<br>
+        <input type="radio" name="procesador" value="procesadorintel_5"> Intel i5<br>
+        <input type="radio" name="procesador" value="procesadorintel_7"> Intel i7<br><br>
+    </fieldset> 
+    <fieldset> 
+        <legend>Indique sus preferencias por favor</legend>
+        <input type="radio" name="asignatura" value="asignaturamatematicas"> Matemáticas<br>
+        <input type="radio" name="asignatura" value="asignaturahistoria"> Historia<br>
+        <input type="radio" name="asignatura" value="asignaturageografia"> Geografía<br>
+        <input type="radio" name="asignatura" value="asignaturalengua"> Lengua<br><br>
+       
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos"><br>
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direccion" name="direccion"><br><br>
+        
+        <label for="color">Elija un color:</label>
+        <input type="color" id="color" name="color"><br><br>
+        
+        <textarea rows="6" cols="59">Utilice este cuadro para escribir</textarea><br><br>
+        
+        <label for="fecha2">Elija una fecha:</label>
+        <input type="date" id="fecha2" name="fecha2"><br><br>
+    
+        <label for="fichero2">Elija un fichero:</label>
+        <input type="file" id="fichero2" name="fichero2"><br><br>
+       
+        <label for="idioma">Elija un idioma:</label>
+        <select name="idioma" id="idioma">
+            <option value="ingles">Inglés</option>
+            <option value="aleman">Alemán</option>
+            <option value="frances">Francés</option>
+        </select><br><br>
+        
+        <label for="hora">Elija una hora:</label>
+        <input type="time" id="hora" name="hora"><br><br>
+        
+        <input type="checkbox" name="sexo" value="sexomujer"> Mujer<br>
+        <input type="checkbox" name="sexo" value="sexohombre"> Hombre<br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+    <form action="#" method="post">
+        <div>
+        <fieldset> 
+                <legend>Completar</legend>
+            <label for="colorPicker">Elija un color:</label>
+            <input type="color" id="colorPicker" name="color">
+        </div>
+        
+        <br>
+        
+        <div>
+            <textarea name="texto" rows="5" cols="51">Por favor, escriba aquí</textarea>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="language">Seleccione un lenguaje:</label>
+            <select name="language" id="language">
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+                <option value="visual basic">Visual Basic</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div>
+            <input type="radio" name="color" value="colocato" id="a3bk">
+            <label for="a3bk">A3BK</label>
+            
+            <input type="radio" name="color" value="colocato" id="dam">
+            <label for="dam">DAM</label>
+
+            <input type="radio" name="color" value="colocato" id="dam">
+            <label for="dam">DAW</label>
+        </fieldset> 
+        </div>
+        
+            
+        <br>
+        
+        <fieldset> 
+            <legend>Rellene las opciones siguientes</legend>
+        <div>
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        
+        <br>
+        
+        <!-- File chooser -->
+        <div>
+            <label for="archivo">Elija un fichero:</label>
+            <input type="file" id="archivo" name="archivo">
+        </div>
+        
+        <br>
+        
+        <!-- Multiple select dropdown -->
+        <div>
+            <label for="colores">Seleccione opciones (mantenga Ctrl para múltiple selección):</label>
+            <select name="color" id="colores" multiple>
+                <option value="smit">SMB</option>
+                <option value="astr">A3BK</option>
+                <option value="dem">DAM</option>
+                <option value="daw">DAM</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <!-- Submit button -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

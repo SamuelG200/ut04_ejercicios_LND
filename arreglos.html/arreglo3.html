@@ -1,0 +1,32 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+</head>
+<body>
+  <h1>Contáctanos</h1>
+  
+  <!-- Corregido: cambié "metod" por "method" que es el atributo correcto en los formularios -->
+  <form action="send.php" method="POST">
+    
+    <!-- Corregido: Cerré correctamente la etiqueta <label> -->
+    <label for="nombre">Nombre completo</label>
+    <input type="text" id="nombre" name="nombre">
+
+    <!-- Corregido: Cerré correctamente la etiqueta <label> y añadí el cierre de la etiqueta <input> -->
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email"> <!-- Cerré el <input> que estaba sin cerrar -->
+    
+    <!-- Corregido: Añadí los cierres de las etiquetas <option> correctamente -->
+    <p>Selecciona tu motivo de contacto:</p>
+    <select name="motivo">
+      <option value="consulta">Consulta</option> <!-- Cerré la etiqueta <option> -->
+      <option value="soporte">Soporte técnico</option> <!-- Cerré la etiqueta <option> -->
+      <option value="otros">Otros</option> <!-- Cerré la etiqueta <option> -->
+    </select>
+
+    <br><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>

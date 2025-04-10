@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <form action="#" method="post">
+
+        <div>
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color" name="color">
+        </div>
+        
+        <br>
+        
+        
+        <fieldset>
+            <legend>Completar</legend>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos">
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="teléfono">
+            </div>
+       
+        
+        <br>
+        
+            <div>
+                <input type="checkbox" name="asignatura" id="lengua" value="asignatura lengua">
+                <label for="lengua">Lengua</label>
+                
+                <input type="checkbox" name="asignatura" id="matematicas" value="asignatura matemáticas">
+                <label for="matematicas">Matemáticas</label>
+                
+                <input type="checkbox" name="asignatura" id="historia" value="asignatura historia">
+                <label for="historia">Historia</label>
+                
+                <input type="checkbox" name="asignatura" id="geografia" value="asignatura geografía">
+                <label for="geografia">Geografía</label>
+            </div>
+        
+        
+        <br>
+        
+       
+        <div>
+            <label for="archivo1">Elija un fichero:</label>
+            <input type="file" id="archivo1" name="archivo1">
+        </div>
+        
+        <br>
+        
+       
+        <div>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="57">Utilice este cuadro para escribir</textarea>
+        </div>
+        
+        <br>
+        
+            <legend>Formato de imagen:</legend>
+            <div>
+                <input type="radio" name="formato" id="jpg" value="formatójpg">
+                <label for="jpg">JPG</label>
+                
+                <input type="radio" name="formato" id="png" value="formatópng">
+                <label for="png">PNG</label>
+            </div>
+
+        </fieldset>
+
+        <br>
+        
+       
+        <fieldset>
+            <legend>Completar</legend>
+            <div>
+                <label for="nombre2">Nombre:</label>
+                <input type="text" id="nombre2" name="nombre">
+            </div>
+            <div>
+                <label for="apellidos2">Apellidos:</label>
+                <input type="text" id="apellidos2" name="apellidos">
+            </div>
+            <div>
+                <label for="direccion">Direccion:</label>
+                <input type="text" id="direccion" name="director">
+            </div>
+        
+        <br>
+        
+       
+        <div>
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        
+        <br>
+        
+        
+        <div>
+            <select name="conector" id="conector" multiple>
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select>
+        </div>
+    </fieldset>
+        <br>
+              
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
